@@ -1,3 +1,6 @@
+# Xcode distribution logs
+Logs/
+
 # Xcode
 *.xcworkspace/xcuserdata/
 *.xcodeproj/xcuserdata/
