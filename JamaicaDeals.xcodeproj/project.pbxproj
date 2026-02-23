@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0F67CE06D696260C7A28B420 /* JamaicaVacationDealsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEBB3167C5421EA766F14D7 /* JamaicaVacationDealsApp.swift */; };
-		1CF48DD6BAD158371D0C4C99 /* TravelDeal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBE1215ECA42F486E11C1EB /* TravelDeal.swift */; };
-		43923E8B38ACBB4F12EDAC6F /* RSSParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D618238C680A53C481AF9D /* RSSParser.swift */; };
-		495F20529EEE60BCB7627511 /* GoogleMobileAds in Frameworks */ = {isa = PBXBuildFile; productRef = 0D56A044E6709F74043B7662 /* GoogleMobileAds */; };
-		5C1F63BDF21A035215C106AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49644779DEB4B7A24EC3018B /* Assets.xcassets */; };
-		5E7CDC0DFEE18BF5880057BE /* DealCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F74392D68C99F7BED9350EC /* DealCardView.swift */; };
-		AEC8CC7FD3D46D21A5C28938 /* AdBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EB1BE89A03F7D77B766523 /* AdBannerView.swift */; };
-		BCCC904802B222C463A8C90B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BCCE52A2D0497E26665F7D /* ContentView.swift */; };
-		C54DC2FAFF60D4FE6E1ECF8A /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B768F9FBFB582A838348494E /* HeaderView.swift */; };
-		D90BF85A43AABABF46D5DB39 /* RSSFeedService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168A7993E0D52E9222BE967B /* RSSFeedService.swift */; };
+		0B67FE45167C196C9EC19AD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49644779DEB4B7A24EC3018B /* Assets.xcassets */; };
+		1BE4A3D645DC81659C1EF8E3 /* RSSFeedService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168A7993E0D52E9222BE967B /* RSSFeedService.swift */; };
+		30574FAECC14750944918CD3 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B768F9FBFB582A838348494E /* HeaderView.swift */; };
+		61A35C416846DB44A67179FE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BCCE52A2D0497E26665F7D /* ContentView.swift */; };
+		6D7F09144A76BF033403155A /* GoogleMobileAds in Frameworks */ = {isa = PBXBuildFile; productRef = D0AE6B8C3CD822E4E8646392 /* GoogleMobileAds */; };
+		8D8B04BCA52EAA790C4D5861 /* JamaicaVacationDealsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEBB3167C5421EA766F14D7 /* JamaicaVacationDealsApp.swift */; };
+		A51DA86A1EA764C252B1CD23 /* DealCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F74392D68C99F7BED9350EC /* DealCardView.swift */; };
+		B74B732FE212F2EF43D04EFD /* TravelDeal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBE1215ECA42F486E11C1EB /* TravelDeal.swift */; };
+		D15F6605C789F1E6C5D34978 /* RSSParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D618238C680A53C481AF9D /* RSSParser.swift */; };
+		E71B9A2D62456952C0CD5B1B /* AdBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EB1BE89A03F7D77B766523 /* AdBannerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,19 +26,19 @@
 		32BCCE52A2D0497E26665F7D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		49644779DEB4B7A24EC3018B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		54D618238C680A53C481AF9D /* RSSParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSSParser.swift; sourceTree = "<group>"; };
-		8D2FDBD4DAAB3AF2ED23A4F1 /* JamaicaVacationDeals.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = JamaicaVacationDeals.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F74392D68C99F7BED9350EC /* DealCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealCardView.swift; sourceTree = "<group>"; };
 		B768F9FBFB582A838348494E /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		C047C3151FC9A3101FB9F800 /* JamaicaDeals.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = JamaicaDeals.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEEBB3167C5421EA766F14D7 /* JamaicaVacationDealsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JamaicaVacationDealsApp.swift; sourceTree = "<group>"; };
 		E38F121D456F18610658CC0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		77EFAB01DEC7C35BC6CDE5A1 /* Frameworks */ = {
+		A09EC7899DC2461CE520F6D3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				495F20529EEE60BCB7627511 /* GoogleMobileAds in Frameworks */,
+				6D7F09144A76BF033403155A /* GoogleMobileAds in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,7 +56,7 @@
 		38A6A345B9061DC8D624D54A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8D2FDBD4DAAB3AF2ED23A4F1 /* JamaicaVacationDeals.app */,
+				C047C3151FC9A3101FB9F800 /* JamaicaDeals.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -113,24 +113,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6D7AEA72AF6E20DA6B208FD5 /* JamaicaVacationDeals */ = {
+		ACDFC482F2AD4C2AFA04E09C /* JamaicaDeals */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 37C224AEBA638FC59A2D6017 /* Build configuration list for PBXNativeTarget "JamaicaVacationDeals" */;
+			buildConfigurationList = 2B5BAE8A30C92894CA59322C /* Build configuration list for PBXNativeTarget "JamaicaDeals" */;
 			buildPhases = (
-				288FB8FCD326C35D8608A938 /* Sources */,
-				B0F8458C328BC079D34418FA /* Resources */,
-				77EFAB01DEC7C35BC6CDE5A1 /* Frameworks */,
+				49DF923F920C630007C9B910 /* Sources */,
+				496F0F32298A8E4BC6993A4D /* Resources */,
+				A09EC7899DC2461CE520F6D3 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = JamaicaVacationDeals;
+			name = JamaicaDeals;
 			packageProductDependencies = (
-				0D56A044E6709F74043B7662 /* GoogleMobileAds */,
+				D0AE6B8C3CD822E4E8646392 /* GoogleMobileAds */,
 			);
-			productName = JamaicaVacationDeals;
-			productReference = 8D2FDBD4DAAB3AF2ED23A4F1 /* JamaicaVacationDeals.app */;
+			productName = JamaicaDeals;
+			productReference = C047C3151FC9A3101FB9F800 /* JamaicaDeals.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -142,7 +142,7 @@
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
-					6D7AEA72AF6E20DA6B208FD5 = {
+					ACDFC482F2AD4C2AFA04E09C = {
 						DevelopmentTeam = "";
 					};
 				};
@@ -164,41 +164,62 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6D7AEA72AF6E20DA6B208FD5 /* JamaicaVacationDeals */,
+				ACDFC482F2AD4C2AFA04E09C /* JamaicaDeals */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		B0F8458C328BC079D34418FA /* Resources */ = {
+		496F0F32298A8E4BC6993A4D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C1F63BDF21A035215C106AC /* Assets.xcassets in Resources */,
+				0B67FE45167C196C9EC19AD2 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		288FB8FCD326C35D8608A938 /* Sources */ = {
+		49DF923F920C630007C9B910 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEC8CC7FD3D46D21A5C28938 /* AdBannerView.swift in Sources */,
-				BCCC904802B222C463A8C90B /* ContentView.swift in Sources */,
-				5E7CDC0DFEE18BF5880057BE /* DealCardView.swift in Sources */,
-				C54DC2FAFF60D4FE6E1ECF8A /* HeaderView.swift in Sources */,
-				0F67CE06D696260C7A28B420 /* JamaicaVacationDealsApp.swift in Sources */,
-				D90BF85A43AABABF46D5DB39 /* RSSFeedService.swift in Sources */,
-				43923E8B38ACBB4F12EDAC6F /* RSSParser.swift in Sources */,
-				1CF48DD6BAD158371D0C4C99 /* TravelDeal.swift in Sources */,
+				E71B9A2D62456952C0CD5B1B /* AdBannerView.swift in Sources */,
+				61A35C416846DB44A67179FE /* ContentView.swift in Sources */,
+				A51DA86A1EA764C252B1CD23 /* DealCardView.swift in Sources */,
+				30574FAECC14750944918CD3 /* HeaderView.swift in Sources */,
+				8D8B04BCA52EAA790C4D5861 /* JamaicaVacationDealsApp.swift in Sources */,
+				1BE4A3D645DC81659C1EF8E3 /* RSSFeedService.swift in Sources */,
+				D15F6605C789F1E6C5D34978 /* RSSParser.swift in Sources */,
+				B74B732FE212F2EF43D04EFD /* TravelDeal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		2A88A68CAED02883788E7253 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = JamaicaVacationDeals/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jamesbaker.jamaicadeals;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		55BEACCABA60F7AD0A113E9F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -262,7 +283,7 @@
 			};
 			name = Debug;
 		};
-		987AF17E25547B863C5CFE04 /* Debug */ = {
+		936BE7716459F209188312B3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -339,35 +360,14 @@
 			};
 			name = Release;
 		};
-		DA4FA5A00E2385A3EA88DDAA /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = JamaicaVacationDeals/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.jamesbaker.jamaicadeals;
-				SDKROOT = iphoneos;
-				SWIFT_VERSION = 5.9;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		37C224AEBA638FC59A2D6017 /* Build configuration list for PBXNativeTarget "JamaicaVacationDeals" */ = {
+		2B5BAE8A30C92894CA59322C /* Build configuration list for PBXNativeTarget "JamaicaDeals" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				987AF17E25547B863C5CFE04 /* Debug */,
-				DA4FA5A00E2385A3EA88DDAA /* Release */,
+				936BE7716459F209188312B3 /* Debug */,
+				2A88A68CAED02883788E7253 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
@@ -395,7 +395,7 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		0D56A044E6709F74043B7662 /* GoogleMobileAds */ = {
+		D0AE6B8C3CD822E4E8646392 /* GoogleMobileAds */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = BB830D7DC8E49A99563E87A9 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */;
 			productName = GoogleMobileAds;

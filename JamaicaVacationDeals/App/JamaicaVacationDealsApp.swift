@@ -2,7 +2,7 @@ import SwiftUI
 import GoogleMobileAds
 
 @main
-struct JamaicaVacationDealsApp: App {
+struct JamaicaDealsApp: App {
 
     init() {
         GADMobileAds.sharedInstance().start(completionHandler: nil)

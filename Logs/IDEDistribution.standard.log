@@ -1,0 +1,49 @@
+2026-02-23 23:14:27 +0000 [MT] Beginning distribution assistant for archive: JamaicaVacationDeals, task: 2
+2026-02-23 23:14:27 +0000 [MT] state.isLastStepViewControllerNameKnown = 0
+2026-02-23 23:14:27 +0000 [MT] state.isLastStepViewControllerNameKnown = 0
+2026-02-23 23:14:29 +0000 [MT] Proceeding to distribution step IDEDistributionPlanDriverStepViewController, context: <IDEDistributionContext: 0xa730d4280; archive(resolved)="<IDEArchive: 0xa8b5c2d10>", distributionTask(resolved)="2", distributionDestination(resolved)="(null)", distributionMethod(resolved)="(null)", team(resolved)="(null)">
+	Chain (3, self inclusive):
+	<IDEDistributionContext: 0xa730d4280; archive = "<IDEArchive: 0xa8b5c2d10>", distributionMethod="(null)", team="(null)">
+	<IDEDistributionContext: 0xa7306bc00; archive = "<IDEArchive: 0xa8b5c2d10>", distributionMethod="(null)", team="(null)">
+	<IDEDistributionContext: 0xa7306b980; archive = "<IDEArchive: 0xa8b5c2d10>", distributionMethod="(null)", team="(null)">
+</IDEDistributionContext: 0xa730d4280>
+2026-02-23 23:14:29 +0000 [MT] state.isLastStepViewControllerNameKnown = 0
+2026-02-23 23:14:29 +0000  Starting export with options: {"generateAppStoreInformation":false,"manageAppVersionAndBuildNumber":true,"stripSwiftSymbols":true,"thinning":"<none>","raiseProfileSupportOptionalToRequired":false,"destination":"upload","uploadSymbols":true,"method":"app-store-connect","signingStyle":"automatic","testFlightInternalTestingOnly":false,"embedOnDemandResourcesAssetPacksInBundle":false}
+2026-02-23 23:14:29 +0000  Running step: IDEDistributionAnalyzeArchiveStep with <IDEDistributionContext: 0xa730d4f00; archive(resolved)="<IDEArchive: 0xa8b5c2d10>", distributionTask(resolved)="2", distributionDestination(resolved)="2", distributionMethod(resolved)="<IDEDistributionMethodiOSAppStoreDistribution: 0xa887d2350>", team(resolved)="(null)">
+	Chain (5, self inclusive):
+	<IDEDistributionContext: 0xa730d4f00; archive = "<IDEArchive: 0xa8b5c2d10>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0xa887d2350>", team="(null)">
+	<IDEDistributionContext: 0xa730d4c80; archive = "<IDEArchive: 0xa8b5c2d10>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0xa887d2350>", team="(null)">
+	<IDEDistributionContext: 0xa730d4280; archive = "<IDEArchive: 0xa8b5c2d10>", distributionMethod="(null)", team="(null)">
+	<IDEDistributionContext: 0xa7306bc00; archive = "<IDEArchive: 0xa8b5c2d10>", distributionMethod="(null)", team="(null)">
+	<IDEDistributionContext: 0xa7306b980; archive = "<IDEArchive: 0xa8b5c2d10>", distributionMethod="(null)", team="(null)">
+</IDEDistributionContext: 0xa730d4f00>
+2026-02-23 23:14:29 +0000  Running step: IDEDistributionTeamStep with <IDEDistributionContext: 0xa730d5180; archive(resolved)="<IDEArchive: 0xa8b5c2d10>", distributionTask(resolved)="2", distributionDestination(resolved)="2", distributionMethod(resolved)="<IDEDistributionMethodiOSAppStoreDistribution: 0xa887d2350>", team(resolved)="<IDEProvisioningDisambiguatableBasicTeam: 0xa805e0a80; teamID='G3P9A8Z2NP', teamName='James Baker', teamType='Individual', username='jbaker_00@msn.com', isFreeProvisioningTeam='0'>">
+	Chain (6, self inclusive):
+	<IDEDistributionContext: 0xa730d5180; archive = "<IDEArchive: 0xa8b5c2d10>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0xa887d2350>", team="<IDEProvisioningDisambiguatableBasicTeam: 0xa805e0a80; teamID='G3P9A8Z2NP', teamName='James Baker', teamType='Individual', username='jbaker_00@msn.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0xa730d4f00; archive = "<IDEArchive: 0xa8b5c2d10>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0xa887d2350>", team="(null)">
+	<IDEDistributionContext: 0xa730d4c80; archive = "<IDEArchive: 0xa8b5c2d10>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0xa887d2350>", team="(null)">
+	<IDEDistributionContext: 0xa730d4280; archive = "<IDEArchive: 0xa8b5c2d10>", distributionMethod="(null)", team="(null)">
+	<IDEDistributionContext: 0xa7306bc00; archive = "<IDEArchive: 0xa8b5c2d10>", distributionMethod="(null)", team="(null)">
+	<IDEDistributionContext: 0xa7306b980; archive = "<IDEArchive: 0xa8b5c2d10>", distributionMethod="(null)", team="(null)">
+</IDEDistributionContext: 0xa730d5180>
+2026-02-23 23:14:29 +0000  Running step: IDEDistributionUploadAccountStep with <IDEDistributionContext: 0xa730d5400; archive(resolved)="<IDEArchive: 0xa8b5c2d10>", distributionTask(resolved)="2", distributionDestination(resolved)="2", distributionMethod(resolved)="<IDEDistributionMethodiOSAppStoreDistribution: 0xa887d2350>", team(resolved)="<IDEProvisioningDisambiguatableBasicTeam: 0xa805e0a80; teamID='G3P9A8Z2NP', teamName='James Baker', teamType='Individual', username='jbaker_00@msn.com', isFreeProvisioningTeam='0'>">
+	Chain (7, self inclusive):
+	<IDEDistributionContext: 0xa730d5400; archive = "<IDEArchive: 0xa8b5c2d10>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0xa887d2350>", team="<IDEProvisioningDisambiguatableBasicTeam: 0xa805e0a80; teamID='G3P9A8Z2NP', teamName='James Baker', teamType='Individual', username='jbaker_00@msn.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0xa730d5180; archive = "<IDEArchive: 0xa8b5c2d10>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0xa887d2350>", team="<IDEProvisioningDisambiguatableBasicTeam: 0xa805e0a80; teamID='G3P9A8Z2NP', teamName='James Baker', teamType='Individual', username='jbaker_00@msn.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0xa730d4f00; archive = "<IDEArchive: 0xa8b5c2d10>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0xa887d2350>", team="(null)">
+	<IDEDistributionContext: 0xa730d4c80; archive = "<IDEArchive: 0xa8b5c2d10>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0xa887d2350>", team="(null)">
+	<IDEDistributionContext: 0xa730d4280; archive = "<IDEArchive: 0xa8b5c2d10>", distributionMethod="(null)", team="(null)">
+	<IDEDistributionContext: 0xa7306bc00; archive = "<IDEArchive: 0xa8b5c2d10>", distributionMethod="(null)", team="(null)">
+	<IDEDistributionContext: 0xa7306b980; archive = "<IDEArchive: 0xa8b5c2d10>", distributionMethod="(null)", team="(null)">
+</IDEDistributionContext: 0xa730d5400>
+2026-02-23 23:14:31 +0000  Running step: IDEDistributionFetchAppRecordStep with <IDEDistributionContext: 0xa730d5680; archive(resolved)="<IDEArchive: 0xa8b5c2d10>", distributionTask(resolved)="2", distributionDestination(resolved)="2", distributionMethod(resolved)="<IDEDistributionMethodiOSAppStoreDistribution: 0xa887d2350>", team(resolved)="<IDEProvisioningDisambiguatableBasicTeam: 0xa805e0a80; teamID='G3P9A8Z2NP', teamName='James Baker', teamType='Individual', username='jbaker_00@msn.com', isFreeProvisioningTeam='0'>">
+	Chain (8, self inclusive):
+	<IDEDistributionContext: 0xa730d5680; archive = "<IDEArchive: 0xa8b5c2d10>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0xa887d2350>", team="<IDEProvisioningDisambiguatableBasicTeam: 0xa805e0a80; teamID='G3P9A8Z2NP', teamName='James Baker', teamType='Individual', username='jbaker_00@msn.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0xa730d5400; archive = "<IDEArchive: 0xa8b5c2d10>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0xa887d2350>", team="<IDEProvisioningDisambiguatableBasicTeam: 0xa805e0a80; teamID='G3P9A8Z2NP', teamName='James Baker', teamType='Individual', username='jbaker_00@msn.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0xa730d5180; archive = "<IDEArchive: 0xa8b5c2d10>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0xa887d2350>", team="<IDEProvisioningDisambiguatableBasicTeam: 0xa805e0a80; teamID='G3P9A8Z2NP', teamName='James Baker', teamType='Individual', username='jbaker_00@msn.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0xa730d4f00; archive = "<IDEArchive: 0xa8b5c2d10>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0xa887d2350>", team="(null)">
+	<IDEDistributionContext: 0xa730d4c80; archive = "<IDEArchive: 0xa8b5c2d10>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0xa887d2350>", team="(null)">
+	<IDEDistributionContext: 0xa730d4280; archive = "<IDEArchive: 0xa8b5c2d10>", distributionMethod="(null)", team="(null)">
+	<IDEDistributionContext: 0xa7306bc00; archive = "<IDEArchive: 0xa8b5c2d10>", distributionMethod="(null)", team="(null)">
+	<IDEDistributionContext: 0xa7306b980; archive = "<IDEArchive: 0xa8b5c2d10>", distributionMethod="(null)", team="(null)">
+</IDEDistributionContext: 0xa730d5680>

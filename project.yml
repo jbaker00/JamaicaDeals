@@ -12,7 +12,7 @@ packages:
     from: "11.0.0"
 
 targets:
-  JamaicaVacationDeals:
+  JamaicaDeals:
     type: application
     platform: iOS
     deploymentTarget: "17.0"
