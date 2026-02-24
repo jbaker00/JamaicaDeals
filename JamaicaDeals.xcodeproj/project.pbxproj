@@ -3,19 +3,22 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 63;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		0B67FE45167C196C9EC19AD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49644779DEB4B7A24EC3018B /* Assets.xcassets */; };
+		14636F663DC07E66F487535C /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 2D4506BFD3DF9C587D207C11 /* FirebaseCore */; };
 		1BE4A3D645DC81659C1EF8E3 /* RSSFeedService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168A7993E0D52E9222BE967B /* RSSFeedService.swift */; };
 		30574FAECC14750944918CD3 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B768F9FBFB582A838348494E /* HeaderView.swift */; };
 		61A35C416846DB44A67179FE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BCCE52A2D0497E26665F7D /* ContentView.swift */; };
 		6D7F09144A76BF033403155A /* GoogleMobileAds in Frameworks */ = {isa = PBXBuildFile; productRef = D0AE6B8C3CD822E4E8646392 /* GoogleMobileAds */; };
 		8D8B04BCA52EAA790C4D5861 /* JamaicaVacationDealsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEBB3167C5421EA766F14D7 /* JamaicaVacationDealsApp.swift */; };
+		9A81086175FD44B018703ADE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F333AC076FA2AC7F30BC54A0 /* GoogleService-Info.plist */; };
 		A51DA86A1EA764C252B1CD23 /* DealCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F74392D68C99F7BED9350EC /* DealCardView.swift */; };
 		B74B732FE212F2EF43D04EFD /* TravelDeal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBE1215ECA42F486E11C1EB /* TravelDeal.swift */; };
 		D15F6605C789F1E6C5D34978 /* RSSParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D618238C680A53C481AF9D /* RSSParser.swift */; };
+		D1DB7B484A153C0658C495DD /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 9BC511ED8470A5F8E06438C4 /* FirebaseAnalytics */; };
 		E71B9A2D62456952C0CD5B1B /* AdBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EB1BE89A03F7D77B766523 /* AdBannerView.swift */; };
 /* End PBXBuildFile section */
 
@@ -28,9 +31,10 @@
 		54D618238C680A53C481AF9D /* RSSParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSSParser.swift; sourceTree = "<group>"; };
 		8F74392D68C99F7BED9350EC /* DealCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealCardView.swift; sourceTree = "<group>"; };
 		B768F9FBFB582A838348494E /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
-		C047C3151FC9A3101FB9F800 /* JamaicaDeals.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = JamaicaDeals.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C047C3151FC9A3101FB9F800 /* JamaicaDeals.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JamaicaDeals.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEEBB3167C5421EA766F14D7 /* JamaicaVacationDealsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JamaicaVacationDealsApp.swift; sourceTree = "<group>"; };
 		E38F121D456F18610658CC0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		F333AC076FA2AC7F30BC54A0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +43,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6D7F09144A76BF033403155A /* GoogleMobileAds in Frameworks */,
+				D1DB7B484A153C0658C495DD /* FirebaseAnalytics in Frameworks */,
+				14636F663DC07E66F487535C /* FirebaseCore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				49644779DEB4B7A24EC3018B /* Assets.xcassets */,
+				F333AC076FA2AC7F30BC54A0 /* GoogleService-Info.plist */,
 				E38F121D456F18610658CC0D /* Info.plist */,
 				4434B76E39B93CC8AAA9808E /* App */,
 				01DC5BC84E57C4B75DD27613 /* Models */,
@@ -128,6 +135,8 @@
 			name = JamaicaDeals;
 			packageProductDependencies = (
 				D0AE6B8C3CD822E4E8646392 /* GoogleMobileAds */,
+				9BC511ED8470A5F8E06438C4 /* FirebaseAnalytics */,
+				2D4506BFD3DF9C587D207C11 /* FirebaseCore */,
 			);
 			productName = JamaicaDeals;
 			productReference = C047C3151FC9A3101FB9F800 /* JamaicaDeals.app */;
@@ -141,11 +150,6 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1500;
-				TargetAttributes = {
-					ACDFC482F2AD4C2AFA04E09C = {
-						DevelopmentTeam = "";
-					};
-				};
 			};
 			buildConfigurationList = 5616E8313F332E052BC08755 /* Build configuration list for PBXProject "JamaicaDeals" */;
 			compatibilityVersion = "Xcode 14.0";
@@ -158,9 +162,9 @@
 			mainGroup = F95634BD80EBF58B9BBA9D4E;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
+				F3F07DFFA900A28946717E3E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 				BB830D7DC8E49A99563E87A9 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */,
 			);
-			preferredProjectObjectVersion = 77;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -175,6 +179,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B67FE45167C196C9EC19AD2 /* Assets.xcassets in Resources */,
+				9A81086175FD44B018703ADE /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,14 +210,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = G3P9A8Z2NP;
 				INFOPLIST_FILE = JamaicaVacationDeals/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.6;
 				PRODUCT_BUNDLE_IDENTIFIER = com.jamesbaker.jamaicadeals;
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.9;
@@ -289,14 +294,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = G3P9A8Z2NP;
 				INFOPLIST_FILE = JamaicaVacationDeals/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.6;
 				PRODUCT_BUNDLE_IDENTIFIER = com.jamesbaker.jamaicadeals;
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.9;
@@ -392,9 +397,27 @@
 				minimumVersion = 11.0.0;
 			};
 		};
+		F3F07DFFA900A28946717E3E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		2D4506BFD3DF9C587D207C11 /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F3F07DFFA900A28946717E3E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		9BC511ED8470A5F8E06438C4 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F3F07DFFA900A28946717E3E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
 		D0AE6B8C3CD822E4E8646392 /* GoogleMobileAds */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = BB830D7DC8E49A99563E87A9 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */;
