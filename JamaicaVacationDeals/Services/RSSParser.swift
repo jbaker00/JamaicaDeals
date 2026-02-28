@@ -1,6 +1,6 @@
 import Foundation
 
-/// Parses RSS/Atom XML and returns only deals mentioning Jamaica destinations.
+/// Parses RSS/Atom XML and returns only hotel deals for Jamaica destinations.
 final class RSSParser: NSObject, XMLParserDelegate {
 
     private var deals: [TravelDeal] = []
@@ -18,6 +18,17 @@ final class RSSParser: NSObject, XMLParserDelegate {
         "jamaica", "kingston", "montego bay", "ocho rios", "negril",
         "runaway bay", "dunns river", "dunn's river", "mbj", "sandals jamaica",
         "iberostar jamaica", "riu montego", "excellence oyster bay"
+    ]
+
+    // Keywords used to match hotel/accommodation deals (case-insensitive)
+    private static let hotelKeywords: [String] = [
+        "hotel", "resort", "accommodation", "lodging", "stay", "room",
+        "all-inclusive", "all inclusive", "villa", "suite", "guesthouse",
+        "bed and breakfast", "b&b", "airbnb", "vrbo", "vacation rental",
+        "hyatt", "hilton", "marriott", "intercontinental", "westin", "radisson",
+        "sandals", "beaches", "iberostar", "riu", "excellence", "secrets",
+        "royalton", "grand palladium", "half moon", "round hill", "tryall",
+        "couples", "hideaway", "moon palace", "booking", "expedia hotel"
     ]
 
     init(sourceName: String) {
@@ -90,7 +101,8 @@ final class RSSParser: NSObject, XMLParserDelegate {
 
         let combined = (currentTitle + " " + currentDescription).lowercased()
         let isJamaica = Self.jamaicaKeywords.contains { combined.contains($0) }
-        guard isJamaica else { return }
+        let isHotel = Self.hotelKeywords.contains { combined.contains($0) }
+        guard isJamaica && isHotel else { return }
 
         let linkString = currentLink.trimmingCharacters(in: .whitespacesAndNewlines)
         guard let url = URL(string: linkString) else { return }
